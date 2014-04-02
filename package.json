@@ -1,27 +1,16 @@
 {
   "name": "suitcss-utils",
-  "description": "Utilities for SUIT CSS",
   "version": "0.8.0",
   "dependencies": {
-    "suitcss-utils-align": "~0.1.1",
-    "suitcss-utils-display": "~0.2.4",
-    "suitcss-utils-layout": "~0.3.0",
-    "suitcss-utils-link": "~0.3.1",
-    "suitcss-utils-offset": "~0.4.2",
-    "suitcss-utils-position": "~0.1.0",
-    "suitcss-utils-size": "~0.6.2",
-    "suitcss-utils-state": "~0.3.0",
-    "suitcss-utils-text": "~0.3.0"
+    "suitcss-utils-align": "git://github.com/npmcomponent/suitcss-utils-align.git",
+    "suitcss-utils-display": "git://github.com/npmcomponent/suitcss-utils-display.git",
+    "suitcss-utils-layout": "git://github.com/npmcomponent/suitcss-utils-layout.git",
+    "suitcss-utils-link": "git://github.com/npmcomponent/suitcss-utils-link.git",
+    "suitcss-utils-offset": "git://github.com/npmcomponent/suitcss-utils-offset.git",
+    "suitcss-utils-position": "git://github.com/npmcomponent/suitcss-utils-position.git",
+    "suitcss-utils-size": "git://github.com/npmcomponent/suitcss-utils-size.git",
+    "suitcss-utils-state": "git://github.com/npmcomponent/suitcss-utils-state.git",
+    "suitcss-utils-text": "git://github.com/npmcomponent/suitcss-utils-text.git"
   },
-  "devDependencies": {
-    "component": "0.19.x",
-    "component-builder-suit": "0.2.x",
-    "suitcss-preprocessor": "0.1.x"
-  },
-  "scripts": {
-    "build": "npm run component && npm run preprocess",
-    "component": "component install && component build --use component-builder-suit",
-    "preprocess": "suitcss build/build.css build/build.css"
-  }
+  "license": "MIT"
 }
-
